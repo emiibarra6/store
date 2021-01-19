@@ -1,0 +1,26 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Remera XXL",
+        "description": "remera de varon manga corta",
+        "price": "50.00",
+        "image": "products/580b57fbd9996e24bc43bf77.png",
+        "slug": "remera-xxl",
+        "created_at": "2020-12-26T23:11:00.280Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Remera \"S\"",
+        "description": "Remera de mujer Talle \"S\"",
+        "price": "50.00",
+        "image": "products/model-image--i_M_E1.png",
+        "slug": "remera-s",
+        "created_at": "2020-12-26T23:11:42.541Z"
+    }
+}
+]

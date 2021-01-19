@@ -1,0 +1,9 @@
+ESTE COMANDO ES PARA HACER UN RESPALDO DE LOS PRODUCTOS.
+python manage.py dumpdata products.Product --format=json --indent=4 > products/fixtures/products.json
+
+SUPONEMOS QUE BORRAMOS TODOS LOS DATOS (UNA VEZ QUE HICIMOS EL ANTERIOR PASO)
+
+
+DE ESTA MANERA VOLVEMOS A CARGAR LOS DATOS EN LA BD
+python manage.py loaddata products.json
+
